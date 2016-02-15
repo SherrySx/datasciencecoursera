@@ -12,7 +12,7 @@ corr <- function(directory, threshold =0){
   if(nrow(mydf)>0){
     mydf[[1]]
   }else{
-    0
+    numeric()
   }
 
 }
